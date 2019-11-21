@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.regist_login.RegistActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/regist" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:src="@drawable/shouji"
+               android:layout_marginTop="193dp"
+               android:layout_marginLeft="65dp"
+               android:layout_height="wrap_content"/>
+           <EditText
+               android:id="@+id/shouji"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="180dp"
+               android:padding="10dp"
+               android:hint="手机号"
+               android:layout_marginRight="65dp"
+               android:textColorHint="#F0F0F0"
+               android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="230dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/suo"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="65dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/mima"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="65dp"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:textColorHint="#ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_register"
+        android:background="@drawable/btn_shape"
+        android:layout_width="280dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="75dp"
+        android:layout_height="40dp"
+        android:text="注册" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+package week1.dianshangjinjie.bw.com.dbmall.apis;
+
+
+public class Api {
+
+    public static final String BASE_URL="http://172.17.8.100/";
+
+}
